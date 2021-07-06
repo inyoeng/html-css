@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>인라인형석을 블록형식으로 변환하기</title>
+<style>
+	p strong{
+		color:blue;
+		border: 1px dotted red;
+		width:100px;
+		height:100px;
+	}
+	
+	p.bk strong{
+		display: block;
+		color:blue;
+		border: 1px dotted red;
+		width:100px;
+		height:100px;
+	}
+</style>
+</head>
+<body>
+	<h3>[인라인 형식]</h3>
+	<P> 세계적인 it기업에서는 <strong>GOOGLE</strong><strong>Apple</strong>
+	<strong>Oracle</strong>등이 있습니다.</P>
+	<h3>[블록형식으로 전환후]</h3>
+	<p class="bk"> 세계적인 it기업에서는 <strong>GOOGLE</strong><strong>Apple</strong>
+	<strong>Oracle</strong>등이 있습니다.</p>
+</body>
+</html>

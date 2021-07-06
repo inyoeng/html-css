@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>	
+	<title>회원가입</title>
+</head>
+<body >
+	<table border= "1" color= "black" noshade>
+	<tr height="50">
+		<td width= "200" align="middle"> 이름<font color="red">*</font> </td>
+		<td>
+		<label>
+			<input type ="text" name="name" size="20">
+		</label>
+		</td>
+	</tr>
+	<tr height="50">
+		<td  align="middle"> 아이디<font color="red">*</font> </td>
+		<td>
+		<label>
+			<input type ="text" name="id" size="20">
+		</label>
+		</td>
+	</tr>
+
+	<tr height="50">
+		<td align="middle"> 비밀번호<font color="red">*</font></td>
+		<td>
+		<label>
+			<input type ="password" name="pw" size="20">
+		</label>
+		</td>
+	</tr>
+
+	<tr height="50">
+		<td align="middle"> 비밀번호확인<font color="red">*</font></td>
+		<td>
+		<label>
+			<input type ="text" name="pw" size="20">
+		</label>
+		</td>
+	</tr>
+
+	<tr height="50">
+		<td align="middle"> 생년월일<font color="red">*</font> </td>
+		<td>
+		<form>
+		<select year="년도">
+			<option value="1" selected>년도</option>
+		</select>
+		<select month="월">
+			<option value="1" selected>월</option>
+		</select>
+		<select day="일">
+			<option value="1" selected>일</option>
+		</select>
+		<font color="grey" size ="2">*신분증에 기재된 성명, 생년월일, 성별을 선택해주세요.</font>
+		</td>
+	</tr>
+	
+	<tr height="50">
+		<td align="middle"> 성별<font color="red">*</font> </td>
+		<td>
+		<form>
+		<label>남
+			<input type = "radio" name="gender" value="man"  checked>	
+	 	</label>&nbsp;
+	
+		<label>여
+			<input type ="radio"  name="gender" value="woman" >
+		</label>
+		</form>
+		</td>
+	</tr>
+	
+	<tr height="50">
+		<td align="middle"> 이메일<font color="red">*</font></td>
+		<td>
+		<label>
+			<input type ="text" name="email" size="60"> <font color="grey" size ="2">*본인확인 및 아이디/비번찾기에 사용됩니다.</font>
+		</label>
+		</td>
+	</tr>
+
+
+	<tr height="50">
+		<td align="middle"> 전화번호<font color="blue">*</font></td>
+		<td>
+		<form>
+		<select phone="번호">
+			<option value="1" selected>선택</option>
+		</select>
+		<label>
+			-&nbsp;<input type ="text" name="2th" size="2">&nbsp;-&nbsp;<input type ="text" name="3rd" size="2">
+		</label>
+		<font color= "blue" size="2">*전화 또는 휴대번호 중 택 1은 필수 입니다. </font>
+		</td>
+	</tr>
+
+	<tr height="50">
+		<td align="middle"> 휴대폰번호<font color="blue">*</font> </td>
+		<td>
+		<form>
+		<select cell="번호">
+			<option value="1" selected>선택</option>
+		</select>
+		<label>
+			-&nbsp;<input type ="text" name="2th" size="2">&nbsp;-&nbsp;<input type ="text" name="3rd" size="2">
+		</label>
+		
+		</td>
+	</tr>
+
+	<tr height="50">
+		<td align="middle">우편번호<font color="red">*</font> </td>
+		<td>
+		<label>
+			<input type ="text" name="1st" size="4">&nbsp;-&nbsp;<input type ="text" name="2nd" size="4">
+		</label>
+		<form>	
+			<input type="submit" name="select" value="우편번호 찾기">
+		</form>
+		</td>
+	</tr>
+
+	<tr height="50">
+		<td align="middle"> 주소<font color="red">*</font></td>
+		<td>
+		<label>
+			<input type ="text" name="adress" size="80">
+		</label>
+		</td>
+	</tr>
+	<tr height="50">
+		<td align="middle"> 상세주소<font color="red">*</font> </td>
+		<td>
+		<label>
+			<input type ="text" name="adress2" size="80">
+		</label>
+		</td>
+	</tr>
+
+	</table>
+
+	
+	<table>
+	<tr>
+		<form>
+		<td align="middle" width="1000">
+		<center>	
+		<input type="submit" name="select" value="일반회원가입" >
+		</center>		
+		</form>
+	</td>
+	</tr>
+	
+</body>
+</html>
